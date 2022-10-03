@@ -1,0 +1,44 @@
+.pastel(@color) {
+  background-color: @color;
+}
+
+.pastel-btn {
+  border-color: #fff;
+  color: #fff;
+  border: 2px solid;
+
+  &.pastel-pink-btn {
+    .pastel(@pastelPink);
+  }
+  
+  &.pastel-purple-btn {
+    .pastel(@pastelPurple);
+  }
+
+  &.pastel-blue-btn {
+    .pastel(@pastelBlue);
+  }
+
+  &.pastel-green-btn {
+    .pastel(@pastelGreen);
+  }
+
+  &.pastel-red-btn {
+    .pastel(@pastelRed);
+  }
+
+  &.pastel-yellow-btn {
+    .pastel(@pastelYellow);
+  }
+
+  &.pastel-orange-btn {
+    .pastel(@pastelOrange);
+  }
+
+  &.pastel-Dark-Mode-btn {
+  color: #000000 !important;
+  border-color: #000000 !important;
+  background-color: #fff
+}
+
+}
